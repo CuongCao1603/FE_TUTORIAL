@@ -7,7 +7,7 @@ const Icon = ({
   isCompleted,
   updateIsCompleted,
 }: {
-    todoId:string;
+  todoId: string;
   isCompleted: boolean;
   updateIsCompleted: (todoId: string) => void;
 }) => {

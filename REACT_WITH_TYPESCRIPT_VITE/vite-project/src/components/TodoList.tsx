@@ -15,7 +15,7 @@ export const TodoList = ({
       {todoList.map((todo) => {
         return (
           <Todo
-          todoId={todo.id}
+            todoId={todo.id}
             key={todo.id}
             name={todo.name}
             isCompleted={todo.isCompleted}
@@ -26,3 +26,5 @@ export const TodoList = ({
     </div>
   );
 };
+{
+}
